@@ -60,7 +60,7 @@ module.exports = (
     ? addDateSuffix(dateO.getDate())
     : dateO.getDate();
 
-    const year = datO.getYear();
+    const year = dateO.getYear();
     let hour = dateO.getHours() > 12
     ? Math.floor(dateO.getHours() -12)
     : dateO.getHours();
